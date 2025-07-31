@@ -1,10 +1,15 @@
                   **MOVIE_LENS - A personalized Movie Recommender System using Machine Learning** 
+
                   
+
+<img width="854" height="504"  alt="{71780F51-48B7-444A-8CAA-F347149EE100}" src="https://github.com/user-attachments/assets/f16fbd7b-2e10-43e3-9a3b-8c89444ef626" />
+
+
 ## Features
 
 -  Content-based filtering using movie metadata (genre, director, actors, keywords, etc.)
 -  Text vectorization using **CountVectorizer**
--  Performance enhancement with **TF-IDF** transformation
+-  Performance enhancement with **TfidfVectorizer**
 -  Similarity scoring using **cosine similarity**
 -  Intelligent recommendations based on contextual similarity
 -  Lightweight, fast, and easy to deploy
@@ -20,7 +25,7 @@
   - `CountVectorizer`
   - `TfidfTransformer` or `TfidfVectorizer`
   - `cosine_similarity`
-- (Optional) **Flask** or **Streamlit** for deploying a web app
+- **Streamlit** for building the frontend
 
 --- 
 
@@ -50,7 +55,7 @@ Uses **semantic similarity** between movies based on metadata context (like plot
 
 2. **Feature Extraction**
    - Apply `CountVectorizer` to transform text into vectors.
-   - Then, apply `TfidfTransformer` or `TfidfVectorizer` to enhance the vectors.
+   - Then, apply `TfidfVectorizer` to enhance the vectors.
 
 3. **Similarity Matrix**
    - Compute the cosine similarity matrix between all movies.
@@ -60,8 +65,6 @@ Uses **semantic similarity** between movies based on metadata context (like plot
 
 ---
 
-## !Example
-
-```python
-get_recommendations("Inception")
-# Output: List of 10 movies similar to Inception based on content
+Thank you,
+Disha Basu
+Krishnendu Roy
