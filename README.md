@@ -1,6 +1,6 @@
-                  **MOVIE_LENS - A personalized Movie Recommender System using Machine Learning** 
+# MOVIE_LENS 🎥
 
-                  
+### `Content-Based Movie Recommendation System`
 
 <img width="854" height="504"  alt="{71780F51-48B7-444A-8CAA-F347149EE100}" src="https://github.com/user-attachments/assets/f16fbd7b-2e10-43e3-9a3b-8c89444ef626" />
 
