@@ -65,6 +65,7 @@ Uses **semantic similarity** between movies based on metadata context (like plot
 
 ---
 
-Thank you,
-Disha Basu
-Krishnendu Roy
+**Thank you,**
+
+`Disha Basu`
+`Krishnendu Roy`
